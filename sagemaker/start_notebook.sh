@@ -12,6 +12,7 @@ conda env create --name autogluon -f build_contrib.yml
 source activate autogluon
 
 pip install https://autogluon.s3-us-west-2.amazonaws.com/autogluon_tutorial/autogluon-0.0.4-py3-none-any.whl
+pip install --upgrade scikit-learn==0.21.3
 
 source deactivate
 
